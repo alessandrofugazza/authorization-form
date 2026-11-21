@@ -11,7 +11,7 @@ function Contact() {
   }
 
   const login = (
-    <form action="#">
+    <form action="#" onSubmit={handleSubmit}>
       <input type="password" placeholder="Password" />
       <input type="submit" />
     </form>
